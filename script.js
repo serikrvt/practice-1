@@ -46,6 +46,13 @@ console.log(areaRectangle(5,9));
 
 const auto={
 
+    car: 'Audi',
+    model: 'A7',
+    year: 2019,
+    getinfo: function(){
+
+    }
+
 }
 // Напишите функцию isEligibleForScholarship, которая принимает объект студента (свойства: name, gpa, extracurricularsCount) и возвращает true, если GPA больше 3.5 и количество внеучебных мероприятий больше 2, и false в противном случае.
 
