@@ -90,3 +90,20 @@ console.log(checkPassword(111,111));
 // Проверяет, что оператор является одним из допустимых (+, -, *, /).
 // Выполняет соответствующую арифметическую операцию и выводит результат.
 // Обрабатывает возможные ошибки, такие как деление на ноль.
+function startCalculator(num1, num2, actions) {
+    switch (actions) {
+      case "*":
+        return num1 * num2;
+      case "+":
+        return num1 + num2;
+      case "-":
+        return num1 - num2;
+      case "/":
+        if (num2 !== 0) {
+          return num1 / num2;
+        } else {
+          return "не делится на нуль";
+        }
+    }
+  }
+
