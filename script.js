@@ -107,3 +107,25 @@ function startCalculator(num1, num2, actions) {
     }
   }
 
+
+
+//   Условный (тернарный) оператор
+
+
+const year = 2025
+let message = null
+
+if(year ==2025){
+    message='да'
+}else  {
+    message = 'нет';
+}
+console.log(message);
+
+
+
+const message2 = year===2025 ? 'да!!!' : 'нет!'
+console.log(message2);
+
+
+
