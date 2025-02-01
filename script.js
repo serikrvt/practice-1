@@ -50,17 +50,35 @@ const auto={
     model: 'A7',
     year: 2019,
     getinfo: function(){
-
+        return `${this.car,this.model,this.year}`
     }
-
+ 
 }
+
 // Напишите функцию isEligibleForScholarship, которая принимает объект студента (свойства: name, gpa, extracurricularsCount) и возвращает true, если GPA больше 3.5 и количество внеучебных мероприятий больше 2, и false в противном случае.
+
+
+
+
 
 
 // Создайте функцию checkPassword, которая принимает объект пользователя (свойства: password, confirmPassword) и проверяет, соответствует ли пароли друг другу. Если пароль неверный, функция должна возвращать сообщение о том, что пароль неверен, и предлагать пользователю ввести его снова.
 
+const checkPassword=(password,confirmPassword)=>{
+ if(password===confirmPassword){
+    alert('пароль верный')
+ }else{
+    alert('неверен,ввести его снова')
+ }
+}
+console.log(checkPassword(111,111));
+
+
 
 // Напишите функцию canAccess, которая принимает объект пользователя (свойства: role, isLoggedIn) и возвращает true, если пользователь имеет доступ (например, роль "admin" или "editor" и статус isLoggedIn равен true), и false в противном случае.
+
+
+
 
 
 // Напишите функцию convertTemperature, которая принимает температуру в градусах Цельсия и возвращает объект с двумя свойствами: celsius и fahrenheit, где fahrenheit - это температура в градусах Фаренгейта.
