@@ -126,6 +126,6 @@ console.log(message);
 
 const message2 = year===2025 ? 'да!!!' : 'нет!'
 console.log(message2);
-
+const alert = null
 
 
